@@ -1,5 +1,6 @@
 import Provider from '@/components/Provider'
 import { BASE_URL } from '@/constants'
+import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 
 const { SITE_NAME } = process.env
@@ -32,6 +33,7 @@ function RootLayout({ children }: { children: React.ReactNode }) {
     <html lang="en-US" className="h-full">
       <body className="h-full">
         <Provider>{children}</Provider>
+        <Analytics />
       </body>
     </html>
   )
