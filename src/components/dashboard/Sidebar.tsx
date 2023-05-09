@@ -19,8 +19,8 @@ import { useSelectedLayoutSegment } from 'next/navigation'
 import { Fragment } from 'react'
 
 const navigation = [
-  { name: 'Deployments', href: '/dashboard', icon: FolderIcon },
-  { name: 'Projects', href: '/dashboard/projects', icon: ServerIcon },
+  { name: 'Projects', href: '/dashboard', icon: FolderIcon },
+  { name: 'Deployments', href: '/dashboard/deployments', icon: ServerIcon },
   { name: 'Activity', href: '/dashboard/activity', icon: SignalIcon },
   { name: 'Domains', href: '/dashboard/domains', icon: GlobeAltIcon },
   { name: 'Usage', href: '/dashboard/usage', icon: ChartBarSquareIcon },
