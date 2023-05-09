@@ -47,7 +47,7 @@ const activityItems = [
   },
 ]
 
-function Projects() {
+function Deployments() {
   return (
     <>
       <main className="lg:pr-96">
@@ -160,4 +160,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default Deployments

@@ -12,7 +12,7 @@ export const metadata = {
     follow: true,
     index: true,
   },
-  description: 'High-performance ecommerce store built with Next.js and Swell.',
+  description: 'High-performance project built with Next.js.',
   openGraph: {
     images: [
       {
