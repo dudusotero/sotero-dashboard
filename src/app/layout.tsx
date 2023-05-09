@@ -1,9 +1,11 @@
 import Provider from '@/components/Provider'
+import { BASE_URL } from '@/constants'
 import './globals.css'
 
 const { SITE_NAME } = process.env
 
 export const metadata = {
+  metadataBase: new URL(BASE_URL!),
   title: {
     default: SITE_NAME!,
     template: `%s | ${SITE_NAME}`,
